@@ -19,7 +19,7 @@ Execute the following command to install the required third party libraries:<br 
 # Usage:
 Clone this repository:
 
-`git clone https://github.com/OmkarPathak/A-Simple-Note-Taking-Web-App.git`
+`git clone https://github.com/raghavasrujan/Web-Notes.git`
 
 Install the dependencies by simply executing:
 
@@ -29,33 +29,35 @@ Run this command to start the app:
 
 `python3 manage.py`
 
-Visit `0.0.0.0:5000` on your web browser
+Visit `localhost:5000` on your web browser
 
 Happy Noting :)
 
-Built with ♥ by 
+Built with ♥ and ☕
 
 # Results
+## Home Page
+Simple interface with login and number of users registered
+![Home Page](results/home.png)
 
 ## Creating a new note
-Simple innterface with live preview and markdown support
+Simple interface with live preview and markdown support
 
-![Creating a new Note](results/NewNote.png)
+![Creating a new Note](results/new_note.png)
 
 ## Viewing a note
 Edit box provided to simply edit the note
 
-![Viewing a note](results/ViewNote.png)
+![Viewing a note](results/all_notes.png)
 
 ## Adding a tag
-![Adding a tag](results/NewTag.png)
+![Adding a tag](results/new_tag.png)
 
 ## Viewing all tags
 You can click on any tag to see all notes tagged under *that* tag
-
-![Viewing all tags](results/ViewTag.png)
+![Viewing all tags](results/all_tags.png)
 
 ## Profile Settings
 Profile settings to see user details, change email and see notes and tags saved by particular user
-![Profile Settings](results/ProfileSettings.png)
+![Profile Settings](results/profile.png)
 
