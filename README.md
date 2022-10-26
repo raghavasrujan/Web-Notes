@@ -1,4 +1,4 @@
-# A-Simple-Note-Taking-Web-App
+# Web-Notes
 An easy to use and deploy web app built using Flask
 
 Wanna try this app? Visit: [https://web-notes.srujanragh.repl.co/](https://web-notes.srujanragh.repl.co/)
