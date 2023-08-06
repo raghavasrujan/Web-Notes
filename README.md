@@ -8,7 +8,6 @@ Wanna try this app? Visit: [https://web-notes.srujanragh.repl.co/](https://web-n
 * Simple Web application, easy to use and *very* easy to deploy locally
 * Written in simple Python. Even a beginner Python developer can contribute to this
 * Support for SQLite, so you can easily play with it
-* REST API for retrieving data easily
 
 # Requirements:
 
