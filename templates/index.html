@@ -19,11 +19,13 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="/">
+                        <div class="gcse-search"></div>
                         &lt Take Notes &gt
                     </a>
                 </div><!-- ./navbar-header -->
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav" id="navbar-links">
+                        <div class="gcse-search"></div>
                         {% if username %}
                             <li>
                                 <a href="/notes/add/">NEW NOTE</a>
@@ -47,6 +49,7 @@
                         {% if username %}
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <div class="gcse-search"></div>
                                     Welcome, {{ username }} <span class="caret"></span>
                                 </a>
                                 <ul class="dropdown-menu">
@@ -84,14 +87,16 @@
         <div class="container inline-p">
             <legend></legend>
             <h4>
-                <p>&copy; 2017 Omkar Pathak<p>
+                <p>&copy; 2022 Web-Notes<p>
                 <p class="pull-right">
                     <a href="http://www.omkarpathak.in">About me</a>
-                    <a href="https://github.com/OmkarPathak/A-Simple-Note-Taking-Web-App">Contribute to this project</a>
+                    <a href="https://github.com/raghavasrujan/Web-Notes">Contribute to this project</a>
                 </p>
             </h4>
         </div>
     </body>
+    <script async src="https://cse.google.com/cse.js?cx=616b9b7cd9b5d417a">
+    </script>
     <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
     <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
     <script src="{{ url_for('static', filename='js/base.js') }}"></script>
